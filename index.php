@@ -61,7 +61,9 @@
         </div>
         <div class="footer"></div>
     </body>
-    <script src="/javascript/script.js"></script>
+    <script src="script.js"></script>
     <script>
+        var user = request_user();
+        setuser(user);
     </script>
 </html>
