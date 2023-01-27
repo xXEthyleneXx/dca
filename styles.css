@@ -1,0 +1,200 @@
+body {
+    background: #303030;
+    color: white;
+    font-size: 1rem;
+    font-family: Arial;
+}
+
+div.navigation {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+    div.navigation div.logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0px;
+        font-size: 2rem;
+        font-weight: bold;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        /* background: url("/images/logo.png"); */
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    div.navigation div.links {
+        display: flex;
+        width: 100%;
+        height: 60px;
+        background-color: #515151d0;
+        border-radius: 10px;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        align-content: space-around;
+    }
+		div.navigation div.links div.button {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            flex-direction: column;
+            /* height: 60px; */
+            flex-wrap: nowrap;
+        } 
+        div.button:hover {
+            color: #dddcdc;
+            cursor: pointer;
+        } 
+			div.navigation div.links div.button div.image {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                /* height: 30px; */
+                font-size: 0.9rem;
+                color: #a5a5a5;
+                font-weight: bold;
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+            /* #logout_button_home_image {
+                background: url("/images/logout.png");
+            }
+            #edit_inventory_button_home_image {
+                background: url("/images/logout.png");
+            }
+            #contacts_button_home_image {
+                background: url("/images/logout.png");
+            }
+            #history_button_home_image {
+                background: url("/images/logout.png");
+            } */
+            div.navigation div.links div.button div.imgtxt {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 30px;
+            }
+
+div.divdiv{
+    display: flex;
+    padding: 10px 5%;
+    height: 20px;
+    width: 85%;
+    color: #303030;
+    background: rgb(48,48,48);
+    background: -moz-linear-gradient(0deg, rgba(48,48,48,1) 49%, rgba(255,255,255,1) 50%, rgba(48,48,48,1) 51%);
+    background: -webkit-linear-gradient(0deg, rgba(48,48,48,1) 49%, rgba(255,255,255,1) 50%, rgba(48,48,48,1) 51%);
+    background: linear-gradient(0deg, rgba(48,48,48,1) 49%, rgba(255,255,255,1) 50%, rgba(48,48,48,1) 51%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#303030",endColorstr="#303030",GradientType=1);
+    background-size: contain;
+}
+
+div.fill {
+    margin: 8px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+    div.fill div.admin_user{
+        margin: 10px 0px;
+    }
+        div.fill div.admin_user div.userimg{
+            height: 100px;
+            padding: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0px;
+            font-size: 1rem;
+            font-weight: bold;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            /* background: url("/images/logo.png"); */
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            box-shadow: 0px 0px 6px 2px #8d8d8d;
+            border-radius: 5px;
+        }
+        /* #admin_user_image{
+            background: url("/db/.user_H8kJ2r4E82.png");
+        } */
+        #admin_user_last_name{
+            font-size: 1.1rem;
+        }
+        #admin_user_first_name{
+            font-size: 1.1rem;
+        }
+        #admin_user_middle_init{
+            font-size: 1.1rem;
+        }
+        #admin_user_roll{
+            font-size: 0.8rem;
+            color: #aaa;
+        }
+    div.fill div.admin_hud{
+        margin: 20px 8px;
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        align-content: space-around;
+    }
+        div.fill div.admin_hud div.recent_pur{
+            height: 100px;
+            width: 25%;
+            padding: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0px;
+            font-size: 1rem;
+            font-weight: bold;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            /* background: url("/images/logo.png"); */
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            box-shadow: 0px 0px 6px 2px #8d8d8d;
+            border-radius: 5px;
+        }
+        div.fill div.admin_hud div.recent_pur:hover {
+            box-shadow: 0px 0px 8px 4px #8d8d8d;
+            cursor: pointer;
+        } 
+        div.fill div.admin_hud div.recent_sell{
+            height: 100px;
+            width: 25%;
+            padding: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0px;
+            font-size: 1rem;
+            font-weight: bold;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            /* background: url("/images/logo.png"); */
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            box-shadow: 0px 0px 6px 2px #8d8d8d;
+            border-radius: 5px;
+        }
+        div.fill div.admin_hud div.recent_sell:hover {
+            box-shadow: 0px 0px 8px 4px #8d8d8d;
+            cursor: pointer;
+        } 
