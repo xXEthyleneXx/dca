@@ -2,7 +2,7 @@
 <html>
     <head>
         <title></title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="/css/styles.css">
     </head>
     <body>
         <div class="navigation" id="naviagation_home">
@@ -41,7 +41,7 @@
                 <div class="userimg" id="admin_user_image">
                     <span>Profile Image Here</span>
                 </div>
-                <span id="admin_user_last_name">Last,</span>
+                <span id="admin_user_last_name">Last</span>,
                 <span id="admin_user_first_name">First</span>
                 <span id="admin_user_middle_init">M</span>
                 <br>
@@ -61,7 +61,7 @@
         </div>
         <div class="footer"></div>
     </body>
-    <script src="script.js"></script>
+    <script src="javascript/request.js"></script>
     <script>
         var user = request_user();
         setuser(user);

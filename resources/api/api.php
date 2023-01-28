@@ -1,10 +1,14 @@
 <?php
+
 namespace API;
+
+// Configuring API
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 header("Content-type: application/json");
 
+// Opens config.php for use in this file
 require_once "resources/config.php";
 
 use Config;
