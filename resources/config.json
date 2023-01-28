@@ -1,11 +1,10 @@
 {
     "API":{
         "DATABASE":{
-            "FIRSTNAME":"John",
-            "LASTNAME":"Doe",
-            "MIDDLEINIT":"C",
-            "ROLE":"Account Manager",
-            "IMAGE":"f067100f"
+            "USERNAME":"webClient",
+            "PASSWORD":"02WebC1ient!#",
+            "HOSTNAME":"localhost",
+            "DATABASE":"website"
         }
     }
 }
